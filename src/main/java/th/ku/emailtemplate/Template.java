@@ -32,6 +32,7 @@ public class Template {
 			result = result.replaceAll(regex, entry.getValue());
 		}
 		return result;
+
 	}
 
 	private void checkForMissingValues(String result) {
