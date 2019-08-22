@@ -32,7 +32,6 @@ public class Template {
 			result = result.replaceAll(regex, entry.getValue());
 		}
 		return result;
-		//test yolo
 	}
 
 	private void checkForMissingValues(String result) {
